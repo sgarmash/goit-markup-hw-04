@@ -380,11 +380,6 @@ body {
 .portfolio-list__image {
     display: block;
 }
-
-.portfolio-list__item {
-    flex-grow: 1;
-	width: calc(33% - 30px);
-}
  
 .portfolio-list__title {
     margin-bottom: 4px;
@@ -417,7 +412,6 @@ body {
 
 .clients-item {
     flex-grow: 1;
-    width: calc(16.6% - 30px);   
 }
 
 .clients-link {
