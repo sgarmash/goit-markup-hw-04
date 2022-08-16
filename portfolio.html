@@ -13,25 +13,47 @@
 </head>
 <body>
     <header class="header header-portfolio">
-        <h2 class="visually-hidden">Портфоліо</h2>
+        <h1 class="visually-hidden">Портфоліо</h1>
         <div class="container">
-            <a class="logo" href="./"><span>Web</span>Studio</a>
+            <a 
+                class="logo link" 
+                href="./"
+            >
+                <span>Web</span>Studio
+            </a>
             <nav class="header-menu">
-                <ul class="header-menu__list">
+                <ul class="header-menu__list list">
                     <li class="header-menu__item">
-                        <a class="header-menu__link" href="#null">Студія</a>
+                        <a class="header-menu__link link" 
+                        href="./index.html"
+                    >
+                        Студія
+                    </a>
                     </li>
                     <li class="header-menu__item">
-                        <a class="header-menu__link" href="./portfolio.html">Портфоліо</a>
+                        <a 
+                            class="header-menu__link link is-active" 
+                            href="./portfolio.html"
+                        >
+                            Портфоліо
+                        </a>
                     </li>
                     <li class="header-menu__item">
-                        <a class="header-menu__link" href="#null">Контакти</a>
+                        <a 
+                            class="header-menu__link link" 
+                            href="#null"
+                        >
+                            Контакти
+                        </a>
                     </li>
                 </ul>
             </nav>
-            <ul class="header-contact">
+            <ul class="header-contact list">
                 <li class="header-contact__item">
-                    <a class="header-contact__link" href="mailto:info@devstudio.com">
+                    <a 
+                        class="header-contact__link link" 
+                        href="mailto:info@devstudio.com"
+                    >
                         <svg class="header-contact__icon" width="16" height="12" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg">
                             <use href="./images/social-sprite.svg#icon-mail"></use>
                         </svg>
@@ -39,10 +61,13 @@
                     </a>
                 </li>
                 <li class="header-contact__item">
-                    <a class="header-contact__link" href="tel:+380961111111">
-                            <svg class="header-contact__icon" width="10" height="16" viewBox="0 0 10 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <use href="./images/social-sprite.svg#icon-smartphone"></use>
-                            </svg>
+                    <a 
+                        class="header-contact__link link" 
+                        href="tel:+380961111111"
+                    >
+                        <svg class="header-contact__icon" width="10" height="16" viewBox="0 0 10 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <use href="./images/social-sprite.svg#icon-smartphone"></use>
+                        </svg>
                         +38 096 111 11 11
                     </a>
                 </li>
@@ -52,7 +77,8 @@
     <main>
         <section class="section">
             <div class="container">
-                <ul class="tabs">
+                <h1 class="visually-hidden">Протфоліо</h1>
+                <ul class="tabs list">
                     <li class="tabs-item">
                         <button class="tabs-item__button" type="button">Усі</button>
                     </li>
@@ -69,10 +95,10 @@
                         <button class="tabs-item__button" type="button">Маркетинг</button>
                     </li> 
                 </ul>
-                <ul class="list-item-flex portfolio-list">
+                <ul class="list-item-flex portfolio-list list">
                     <li class="portfolio-list__item">
                         <img 
-                            class="portfolio-list__image"
+                            class="thumbnail"
                             src="./images/image-web-site.jpg"
                             width="370"
                             height="294" 
@@ -85,106 +111,116 @@
                     </li>
                     <li class="portfolio-list__item">
                         <img 
-                            class="portfolio-list__image"
+                            class="thumbnail"
                             src="./images/web-site-design.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Постер New Orlean vs Golden Star</h3>
+                            <h3 class="portfolio-list__title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
                             <p class="portfolio-list__description">Дизайн</p>
                         </div>
                     </li>
                     <li class="portfolio-list__item">
                         <img
-                            class="portfolio-list__image" 
+                            class="thumbnail" 
                             src="./images/apps.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Ресторан Seafood</h3>
+                            <h3 class="portfolio-list__title">Ресторан <span lang="en">Seafood</span></h3>
                             <p class="portfolio-list__description">Додаток</p>
                         </div>
                     </li>
                     <li class="portfolio-list__item">
                         <img
-                            class="portfolio-list__image" 
+                            class="thumbnail" 
                             src="./images/marketing.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Проєкт Prime</h3>
+                            <h3 class="portfolio-list__title">Проєкт <span lang="en">Prime</span></h3>
                             <p class="portfolio-list__description">Маркетинг</p>
                         </div>
                     </li>
                     <li class="portfolio-list__item">
                         <img
-                            class="portfolio-list__image" 
+                            class="thumbnail" 
                             src="./images/apps-2.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Проєкт Boxes</h3>
+                            <h3 class="portfolio-list__title">Проєкт <span lang="en">Boxes</span></h3>
                             <p class="portfolio-list__description">Додаток</p>
                         </div>
                     </li>
                     <li class="portfolio-list__item">
                         <img
-                            class="portfolio-list__image" 
+                            class="thumbnail" 
                             src="./images/web-site-2.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Inspiration has no Borders</h3>
+                            <h3 
+                                class="portfolio-list__title"
+                                lang="en"
+                            >
+                                Inspiration has no Borders
+                            </h3>
                             <p class="portfolio-list__description">Веб-сайт</p>
                         </div>
                     </li>
                     <li class="portfolio-list__item">
                         <img
-                            class="portfolio-list__image" 
+                            class="thumbnail" 
                             src="./images/web-site-3.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Видання Limited Edition</h3>
+                            <h3 class="portfolio-list__title">Видання <span lang="en">Limited Edition</span></h3>
                             <p class="portfolio-list__description">Дизайн</p>
                         </div>
                     </li>
                     <li class="portfolio-list__item">
                         <img
-                            class="portfolio-list__image" 
+                            class="thumbnail" 
                             src="./images/marketing-2.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Проєкт LAB</h3>
+                            <h3 class="portfolio-list__title">Проєкт <span lang="en">LAB</span></h3>
                             <p class="portfolio-list__description">Маркетинг</p>
                         </div>
                         
                     </li>
                     <li class="portfolio-list__item">
                         <img
-                            class="portfolio-list__image" 
+                            class="thumbnail" 
                             src="./images/apps-3.jpg"
                             width="370"
                             height="294" 
                             alt="Зображення Проєкту"
                         />
                         <div class="portfolio-list__content">
-                            <h3 class="portfolio-list__title">Growing Business</h3>
+                            <h3 
+                                class="portfolio-list__title"
+                                lang="en"
+                            >
+                                Growing Business
+                            </h3>
                             <p class="portfolio-list__description">Додаток</p>
                         </div>
                     </li>
@@ -196,24 +232,37 @@
         <div class="container">
             <div class="footer-box">
                 <div class="footer-item">
-                    <a class="logo" href="./"><span>Web</span>Studio</a>
+                    <a class="logo link" href="./"><span>Web</span>Studio</a>
                     <address class="address">
                         <p class="address-description">м. Київ, пр-т Лесі Українки, 26</p>
-                        <ul class="address-list">
+                        <ul class="address-list list">
                             <li class="address-list__item">
-                                <a class="address-list__link" href="mailto:info@example.com">info@example.com</a>
+                                <a 
+                                    class="address-list__link link" 
+                                    href="mailto:info@example.com"
+                                >
+                                    info@example.com
+                                </a>
                             </li>
                             <li class="address-list__item">
-                                <a class="address-list__link" href="tel:+380991111111">+38 099 111 11 11</a>
+                                <a 
+                                    class="address-list__link link" 
+                                    href="tel:+380991111111"
+                                >
+                                    +38 099 111 11 11
+                                </a>
                             </li>
                         </ul>
                     </address>
                 </div>
                 <div class="footer-item">
                     <h3 class="footer-title">приєднуйтесь</h3>
-                    <ul class="social-list">
+                    <ul class="social-list list">
                         <li class="social-item">
-                            <a class="social-link" href="#null">
+                            <a 
+                                class="social-link link" 
+                                href="#null"
+                            >
                                 <svg class="social-icon" width="20" height="20">
                                     <use href="./images/social-sprite.svg#icon-instagram"></use>
                                 </svg>
@@ -221,21 +270,30 @@
                             
                         </li>
                         <li class="social-item">
-                            <a class="social-link" href="#null">
+                            <a 
+                                class="social-link link" 
+                                href="#null"
+                            >
                                 <svg class="social-icon" width="20" height="20">
                                     <use href="./images/social-sprite.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-item">
-                            <a class="social-link" href="#null">
+                            <a 
+                                class="social-link" 
+                                href="#null"
+                            >
                                 <svg class="social-icon" width="20" height="20">
                                     <use href="./images/social-sprite.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-item">
-                            <a class="social-link" href="#null">
+                            <a 
+                                class="social-link link" 
+                                href="#null"
+                            >
                                 <svg class="social-icon" width="20" height="20">
                                     <use href="./images/social-sprite.svg#icon-linkedin"></use>
                                 </svg>
