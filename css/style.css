@@ -221,12 +221,14 @@ body {
 /* Styles for the banner section element */
 
 .banner {
+    max-width: 1600px;
     height: 600px;
+    margin: 0 auto;
     background-color: var(--color-silver-sand);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/banner-image.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1600px;
+    background-size: cover;
 }
 
 .banner .container {
