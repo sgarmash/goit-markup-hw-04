@@ -89,7 +89,7 @@ body {
     color: var(--color-black);
 }
 
-.logo span { color: var(--color-blue); }
+.logo .logo__text--blue { color: var(--color-blue); }
 
 /* Styles for the header element */
 
